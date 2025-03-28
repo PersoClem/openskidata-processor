@@ -1,0 +1,50 @@
+# Node.js specific patterns
+node_modules/
+npm-debug.log
+yarn-debug.log
+
+# Development artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+dist/
+build/
+out/
+
+# Test files
+*.test.ts
+*.unit.test.ts
+*.integration.test.ts
+
+# Version control
+.git/
+.gitignore
+
+# Environment and secrets
+.env*
+*.env
+*.pem
+*.key
+*.crt
+
+# Project-specific patterns
+docs/
+*.md
+README*
+Dockerfile*
+docker-compose*
+tmp/
+temp/
+*.tmp
+.local/
+local/
+
+# Temporary files
+*.log
+
+# Exclude the following files and directories
+!src/
+!package.json
+!package-lock.json
+!generate_mbtiles.sh
